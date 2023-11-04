@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 
 export default async function connect() {
-  await mongoose.connect(process.env.ATLAS_URI);
+  await mongoose.connect(
+    "mongodb+srv://poltskie119:QPUIH6OkOsniAssa@cluster0.5mwzizq.mongodb.net/?retryWrites=true&w=majority"
+  );
   console.log("Database Connected");
 }

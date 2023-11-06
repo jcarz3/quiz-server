@@ -15,7 +15,11 @@ const app = express();
 
 /** app middlewares */
 app.use(morgan("tiny"));
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://quiz-server-ig33.onrender.com",
+  })
+);
 app.use(express.json());
 config();
 

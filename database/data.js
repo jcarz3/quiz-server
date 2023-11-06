@@ -32,6 +32,12 @@ export default [
     options: ["stringify()", "parse()", "convert()"],
     correct: "stringify()",
   },
+  {
+    id: 6,
+    question: "Unsay nindut imnon ron?",
+    options: ["redhorse.json()", "tanduay()", "tuba()"],
+    correct: "redhorse.json()",
+  },
 ];
 
-export const answers = [0, 1, 2, 1, 0];
+export const answers = [0, 1, 2, 1, 0, 0];
